@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "symtbl",
+        "TCHK"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.base.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.controls.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.fxml.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.graphics.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.media.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.swing.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx.web.jar",
+        "z:\\_SDK\\javafx-sdk-21.0.1\\lib\\javafx-swt.jar"
+    ]
+}

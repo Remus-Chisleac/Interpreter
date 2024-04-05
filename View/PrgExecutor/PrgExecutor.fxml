@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.PrgExecutor.ExecutorController">
+   <children>
+      <VBox layoutX="19.0" layoutY="24.0" prefHeight="442.0" prefWidth="465.0" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="24.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="94.0" text="PrgExecutor" />
+            <HBox VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="154.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="94.0" text="Heap" />
+                        <TableView fx:id="HeapTableView" prefHeight="183.0" prefWidth="152.0" VBox.vgrow="ALWAYS">
+                           <columns>
+                              <TableColumn fx:id="HeapAddressColumn" prefWidth="75.0" text="address" />
+                              <TableColumn fx:id="HeapValueColumn" prefWidth="75.0" text="value" />
+                           </columns>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </TableView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="154.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="94.0" text="Out" />
+                        <ListView fx:id="OutputListView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="154.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="94.0" text="FileTable" />
+                        <ListView fx:id="FileListView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="154.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label fx:id="PrgStatesLabel" prefHeight="17.0" prefWidth="94.0" text="PrgStates" />
+                        <ListView fx:id="PrgListView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="154.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="94.0" text="ExecStack" />
+                        <ListView fx:id="ExecStackListView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="154.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="94.0" text="SymTable" />
+                        <TableView fx:id="SymTableView" prefHeight="183.0" prefWidth="152.0" VBox.vgrow="ALWAYS">
+                           <columns>
+                              <TableColumn fx:id="SymVarNameColumn" prefWidth="75.0" text="name" />
+                              <TableColumn fx:id="SymValueColumn" prefWidth="75.0" text="value" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="RunOneStepButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Run one step" />
+                  <Button fx:id="ExecuteAllButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Execute All" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.PrgList.ListController">
+   <children>
+      <Label layoutX="34.0" layoutY="24.0" prefHeight="18.0" prefWidth="200.0" text="PrgList" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="33.0" />
+      <ListView fx:id="PrgListView" layoutX="34.0" layoutY="57.0" prefHeight="278.0" prefWidth="200.0" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="33.0" />
+      <Button fx:id="LoadPrgButton" layoutX="34.0" layoutY="350.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Load Prg" AnchorPane.leftAnchor="34.0" />
+   </children>
+</AnchorPane>

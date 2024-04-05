@@ -1,0 +1,6337 @@
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-SymTable-
+v -> 2
+	-Out-
+2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-SymTable-
+v -> 2
+	-Out-
+2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-SymTable-
+v -> 2
+	-Out-
+2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-SymTable-
+v -> 2
+	-Out-
+2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-SymTable-
+v -> 2
+	-Out-
+2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 0
+	-ExeStack-
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 1
+	-ExeStack-
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 1
+	-ExeStack-
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+After
+{	ID: 0
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 1
+	-ExeStack-
+print(v);
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+print(v);
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+After
+{	ID: 1
+	-ExeStack-
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32
+}
+
+After
+{	ID: 1
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=2;print(v);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=2;
+print(v);
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+	-SymTable-
+v -> 2
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-SymTable-
+v -> 2
+	-Out-
+2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+string varf;varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4,5
+}
+
+After
+{	ID: 0
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+string varf;varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@7f8c1628
+	-Out-
+4,5
+}
+
+After
+{	ID: 0
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+int a;int b;int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+int a;
+int b;int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+int a;
+int b;int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+int b;int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+int b;int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+int b;
+int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+int b;
+int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+int v;a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+int v;
+a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+int v;
+a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+a=2;b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+a=2;
+b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+a=2;
+b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 0
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 2
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+b=2;IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 2
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+b=2;
+IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 2
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+b=2;
+IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 2
+b -> 0
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+IF(a != b) THEN(v=2;)ELSE(v=3;);print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+IF(a != b) THEN(v=2;)ELSE(v=3;);
+print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+IF(a != b) THEN(v=2;)ELSE(v=3;);
+print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+v=3;
+print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+v=3;
+print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-ExeStack-
+print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+print(v);
+	-SymTable-
+a -> 2
+b -> 2
+v -> 3
+	-Out-
+
+}
+
+After
+{	ID: 1
+	-SymTable-
+a -> 2
+b -> 2
+v -> 3
+	-Out-
+3
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+Ref(int) v;new(v, 20);Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+Ref(int) v;
+new(v, 20);Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+Ref(int) v;
+new(v, 20);Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(v, 20);Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(v, 20);Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(v, 20);
+Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(v, 20);
+Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+Ref(Ref(int)) a;new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+Ref(Ref(int)) a;
+new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+Ref(Ref(int)) a;
+new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+a -> (0, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(a, v);new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+a -> (0, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(a, v);
+new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+a -> (0, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(a, v);
+new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+	-SymTable-
+a -> (0, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+	-SymTable-
+a -> (2, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(v, 30);print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+	-SymTable-
+a -> (2, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(v, 30);
+print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+	-SymTable-
+a -> (2, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(v, 30);
+print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+	-SymTable-
+a -> (2, Ref(int))
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(v);print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(v);
+print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(v);
+print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int)
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int)
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int)
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int)
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(a);print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(a);
+print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(a);
+print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int))
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(a));print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int))
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(a));
+print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int))
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(a));
+print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int))
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int)),(1, int)
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(rH(a)));
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int)),(1, int)
+}
+
+After
+{	ID: 2
+	-Heap-
+1 -> 20
+2 -> (1, int)
+3 -> 30
+	-SymTable-
+a -> (2, Ref(int))
+v -> (3, int)
+	-Out-
+(3, int),30,(2, Ref(int)),(1, int),20
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+int v;v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 4
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 4
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 4
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 4
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 3
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 4
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 3
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 4
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 3
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 4
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+int v;v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 6
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 6
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 6
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 6
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 5
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 6
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 6
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 5
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 6
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 6
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 5
+	-ExeStack-
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 6
+	-ExeStack-
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 5
+	-ExeStack-
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 6
+	-ExeStack-
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+After
+{	ID: 5
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 6
+	-ExeStack-
+print(v);
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 6
+	-ExeStack-
+print(v);
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+After
+{	ID: 6
+	-ExeStack-
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 6
+	-ExeStack-
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32
+}
+
+After
+{	ID: 6
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+string varf;varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+
+}
+
+After
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+After
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+After
+{	ID: 7
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+After
+{	ID: 7
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4
+}
+
+After
+{	ID: 7
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 7
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@51d555bb
+	-Out-
+4,5
+}
+
+After
+{	ID: 7
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+string varf;varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+string varf;
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+varf=test.in;openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+varf=test.in;
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> 
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+openRFile(varf);int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+openRFile(varf);
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int varc;readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int varc;
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 0
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+readFile(varf, varc);
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 4
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(varc);
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4
+}
+
+After
+{	ID: 0
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+closeRFile(varf);
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-FileTable-
+test.in -> java.io.BufferedReader@53c51bd3
+	-Out-
+4,5
+}
+
+After
+{	ID: 0
+	-SymTable-
+varf -> test.in
+varc -> 5
+	-Out-
+4,5
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+int v;
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=10;Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+v=10;
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 0
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+Ref(int) a;new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+Ref(int) a;
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+new(a, 22);fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+new(a, 22);
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-SymTable-
+a -> (0, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+fork(wH(a, 30);v=32;print(v);print(rH(a)););
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(v);
+print(rH(a));nop;
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+{	ID: 1
+	-ExeStack-
+wH(a, 30);
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 22
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(rH(a));nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 0
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+print(rH(a));
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+{	ID: 1
+	-ExeStack-
+v=32;
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10
+}
+
+After
+{	ID: 0
+	-ExeStack-
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 1
+	-ExeStack-
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 0
+	-ExeStack-
+nop;
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 1
+	-ExeStack-
+print(v);print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+After
+{	ID: 0
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 10
+	-Out-
+10,30
+}
+{	ID: 1
+	-ExeStack-
+print(v);
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+print(v);
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30
+}
+
+After
+{	ID: 1
+	-ExeStack-
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 1
+	-ExeStack-
+print(rH(a));
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32
+}
+
+After
+{	ID: 1
+	-Heap-
+1 -> 30
+	-SymTable-
+a -> (1, int)
+v -> 32
+	-Out-
+10,30,32,30
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+Ref(int) v;new(v, 0);int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+Ref(int) v;
+new(v, 0);int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+Ref(int) v;
+new(v, 0);int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(v, 0);int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(v, 0);int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+new(v, 0);
+int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+new(v, 0);
+int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-SymTable-
+v -> (0, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+int a;a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+int a;
+a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+int a;
+a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=3;while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=3;
+while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=3;
+while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+while(a > 0) print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=a - 1;
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=a - 1;
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 3
+v -> (1, int)
+	-Out-
+0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2,0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=a - 1;
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=a - 1;
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 2
+v -> (1, int)
+	-Out-
+0,2,0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(rH(v));
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=a - 1;print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1,0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+a=a - 1;
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+a=a - 1;
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 1
+v -> (1, int)
+	-Out-
+0,2,0,1,0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+0,2,0,1,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+print(a);
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+0,2,0,1,0
+}
+
+After
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+0,2,0,1,0,0
+}
+
+----------------------------------------------------------------------------------------------------
+
+Before
+{	ID: 2
+	-ExeStack-
+while(a > 0) 
+print(rH(v));a=a - 1;print(a);
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+0,2,0,1,0,0
+}
+
+After
+{	ID: 2
+	-Heap-
+1 -> 0
+	-SymTable-
+a -> 0
+v -> (1, int)
+	-Out-
+0,2,0,1,0,0
+}
+
+----------------------------------------------------------------------------------------------------
